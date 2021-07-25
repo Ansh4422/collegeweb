@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+.navigation1{
+    display: flex;
+    background: rgb(28, 31, 44);
+    position: static;
+    top: 0;
+    cursor: pointer;
+}
+
+
+.logo{
+    width: 15%;
+    text-align: center;
+}
+
+.nav-list1{
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list1 li{
+    list-style: none;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.nav-list1 .active{
+    background:rgb(0, 0, 0);
+}
+
+.nav-list1 li a {
+    text-decoration: none;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-list1 li a:hover {
+    color: yellow;
+}
+
+.search{
+    width: 25%;
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+}
+
+#search{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.background{
+    background: rgba(8, 0, 0, 0.658) url('../Images/college.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.first{
+    height: 90vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+}
+
+
+.box-main .clg_name{
+    padding-left: 30px;
+    text-align: left;
+}
+
+.clg_name h1{
+    font-family: 'Alegreya', serif;
+    font-size: 5rem;
+    margin: 10px;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+.btech h1{
+    font-family: 'Alegreya', serif;
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+
+.clg_name h3{
+    color: white;
+    font-family: 'Alegreya', serif;
+    margin: 10px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+
+
+
+#more{
+    display: none;
+}
+
+.container h2{
+    font-family: 'Oleo Script', cursive;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+    color: rgb(148, 0, 0);
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+
+
+.about p{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+
+.about h2{
+    font-size: 3.5rem;
+    font-family: 'Oleo Script', cursive;
+    text-shadow: 1px 1px 4px rgb(3, 0, 0);
+    color: rgb(2, 0, 0);
+    text-align: center;
+}
+
+.about{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.second{
+    margin-top: 2vh;
+    display: flex;
+    box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.37);
+}
+
+.second .image{
+    width: 30%;
+    display: flex;
+    margin-top: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.founders{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_content{
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+}
+
+.right_content p{
+    margin: 5px;
+    font-size: 20px;
+}
+
+.right_content .sections{
+    margin-top: 4vh;
+    background-color: rgb(189, 189, 189);
+    border-radius: 10px;
+    margin-left: 30px;
+    border-width: 2px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37), 0 6px 20px 0 rgba(0, 0, 0, 0.411);
+}
+
+.right_content .sections:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 110, 255);
+    border-radius: 10px;
+    border-width: 2px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37), 0 6px 20px 0 rgba(0, 0, 0, 0.411);
+}
+
+
+.right_content .sections .photo img{
+    width: 60%;
+    border: 5px solid white;
+    border-radius: 80px;
+    position: relative;
+    margin: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37), 0 6px 20px 0 rgba(0, 0, 0, 0.411);
+}
+
+.footer{
+    background-color: black;
+    padding: 0 1px 1px;
+    margin-top: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.footer a, .footer h3{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    margin: 3px;
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 650px){
+    .nav-list1{
+        flex-direction: column;
+        text-align: left;
+        align-items: left;
+        justify-content: left;
+        display: none;
+    }
+
+    .logo{
+        width: 55%;
+    }
+
+    .search{
+        text-align: right;
+    }
+
+    .box-main{
+        flex-direction: column;
+        height: 67vh;
+    }
+
+    .box-main .clg_name{
+        text-align: center;
+    }
+
+    .box-main .clg_name h1{
+        font-size: 3rem;
+    }
+
+    .btech h1{
+        font-size: 2.5rem;
+    }
+
+    .btech{
+        margin-top: 10px;
+    }
+
+    .second{
+        flex-direction: column;
+    }
+
+    .second .image{
+        justify-content: center;
+        align-items: center;
+         width: 100%;
+    }
+
+    .second .image img{
+        width: 30%;
+    }
+
+    .second .about h2{
+        font-size: 2.5rem;
+    }
+
+    .second .about p{
+        font-size: 2rem;
+    }
+
+}
